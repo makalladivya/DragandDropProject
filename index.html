@@ -1,0 +1,45 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Styled Drag-and-Drop Table</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <h1 style="text-align: center; color: #333;">Styled Drag-and-Drop Table</h1>
+
+    <table>
+       
+        <tbody>
+            <tr>
+               
+              <td><div class="box" draggable="true" style="background-color: #85929E;">100</div></td>
+              <td><div class="box" draggable="true" style="background-color: #3357ff;">200</div></td>
+              <td><div class="box" draggable="true" style="background-color: #2C3E50;">300</div></td>
+              
+            </tr>
+            <tr>
+              
+                <td><div class="box" draggable="true"style="background-color: #196F3D;">400</div></td>
+                <td><div class="box" draggable="true" style="background-color: #D5E8D4;">500</div></td>
+                <td><div class="box" draggable="true" style="background-color: #F7DC6F;">600</div></td>
+            </tr>
+            <tr>
+              
+                <td><div class="box" draggable="true" style="background-color: #C0392B;">700</div></td>
+                <td><div class="box"draggable="true" style="background-color: #E67E22;">800</div></td>
+                <td><div class="box" draggable="true" style="background-color: #B2BABB;">900</div></td>
+            </tr>
+        </tbody>
+    </table>
+    <div class="controls">
+      <button id="addRowBtn">Add Row</button>
+      <button id="undoBtn">Undo</button>
+      <button id="redoBtn">Redo</button>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>
